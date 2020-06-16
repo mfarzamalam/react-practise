@@ -1,20 +1,35 @@
 import React, {Fragment} from 'react';
 import './App.css';
-
+import Student from './Student';
+import Teacher from './Teacher';
+import Class from './Class';
 
 function App() {
   return (
-    // <Fragment>
+    // <React.Fragment>
         
     //     <h1>starting</h1>
     //     <h2>from react fragment</h2>    
 
+    // </React.Fragment>
+
+    // <Fragment>
+    //     <h1>Creating with react fragment</h1>   {/* it is same as div  */}
+    //      <Student name="farzam"></Student>       
     // </Fragment>
 
-    <React.Fragment>
-        <h1>Creating with react fragment</h1>   {/* it is same as div  */}
+    <Fragment>
+
+        <Student></Student>
+        <Teacher>
+        </Teacher>
+        <br/>
+
+        <Class status="Ongoing" numofkids={2}></Class>
         
-    </React.Fragment>
+        <Class numofkids={0}></Class>
+    
+    </Fragment>
 
   );
 }
