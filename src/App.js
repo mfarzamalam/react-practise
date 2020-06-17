@@ -3,6 +3,7 @@ import './App.css';
 import Student from './Student';
 import Teacher from './Teacher';
 import Class from './Class';
+import StubbornChild from './StubbornChild';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
         
         <Class numofkids={0}></Class>
     
+
+        <StubbornChild>maha stubborn</StubbornChild>
     </Fragment>
 
   );
