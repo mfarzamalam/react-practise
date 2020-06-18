@@ -21,7 +21,7 @@ function App() {
 
     <Fragment>
 
-        <Student></Student>
+        <Student name="F"></Student>
         <Teacher>
         </Teacher>
         <br/>
